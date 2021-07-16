@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sub_string</class>
+ <widget class="QDialog" name="sub_string">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>578</width>
+    <height>372</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QPlainTextEdit" name="plainTextEdit"/>
+   </item>
+   <item row="0" column="2">
+    <widget class="QPlainTextEdit" name="plainTextEdit_2"/>
+   </item>
+   <item row="2" column="2">
+    <widget class="QPushButton" name="checkinvalidtag_button">
+     <property name="text">
+      <string>check invalid tags</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="checkmissingtag_button">
+     <property name="text">
+      <string>check missing tags</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

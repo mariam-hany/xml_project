@@ -46,6 +46,13 @@ set(PROJECT_SOURCES
         sub_string.cpp
         sub_string.h
         sub_string.ui
+        format.cpp
+        format.h
+        format.ui
+        minify.cpp
+        minify.h
+        minify.ui
+
 
 
 
